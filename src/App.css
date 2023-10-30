@@ -1,38 +1,41 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.area{
+  width: 80%;
+  margin: auto;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.score{
+  margin-top: 50px;
+  font-size: 32px;  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.gameArea{
+  margin-top: 80px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.card{
+  width: 120px;
+  height: 200px;
+  margin: 5px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  background-color: #eee;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.openCard img{
+  width:120px ;
+  height: 100px;
+}
+.cardMatched img{
+  width:120px ;
+  height: 100px;
+}
+.cardMatched{
+  border:1px solid rgb(10, 173, 10);
+  box-shadow: 5px 5px 5px rgba(10, 173, 10, 0.5);
 }
